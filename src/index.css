@@ -38,7 +38,13 @@ span{
 .body{
   background-color: rgb(231, 229, 229);
    border:none;
-   text-align: left;
+   text-align: center;
 }
 
 
+
+@media (max-width:900px){
+  .table{
+    margin:0px;
+  }
+}

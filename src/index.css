@@ -19,10 +19,26 @@ span{
   font-size: xx-large;
 }
 
-.data-container{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  grid-gap:30px;
+.table{
+  margin: 10px 200px 10px 200px;
 }
+
+.data-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid 2px rgb(196, 196, 196);
+  border-radius: 7px;
+  background-color: rgb(224, 224, 224);
+  height: 30px;
+  margin-left: 0px 40px 0px 40px;
+}
+
+.body{
+  background-color: rgb(231, 229, 229);
+   border:none;
+   text-align: left;
+}
+
 
